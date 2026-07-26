@@ -73,11 +73,17 @@ PBMC_scRNAseq/
 
 ## Output figures
 
-The analysis generates the following figures:
+### Quality control
 
-- Quality control violin plots
-- PCA elbow plot
-- Annotated UMAP projection
+![Quality control violin plot](output/figures/qc_violin.png)
+
+### PCA elbow plot
+
+![PCA elbow plot](output/figures/elbow_plot.png)
+
+### UMAP
+
+![Annotated UMAP](output/figures/pbmc_umap.png)
 
 These figures are available in:
 
