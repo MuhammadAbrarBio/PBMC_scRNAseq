@@ -1,3 +1,6 @@
 .DS_Store
 .Rhistory
 .Rproj.user/
+.RData
+
+output/pbmc_processed.rds
