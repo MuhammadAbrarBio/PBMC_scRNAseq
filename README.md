@@ -31,7 +31,7 @@ This workflow follows the standard Seurat analysis pipeline and includes:
 - **Source:** 10x Genomics
 - **Analysis framework:** Seurat (R)
 
-The raw count matrix included in this repository is the publicly available PBMC 3K dataset distributed for Seurat tutorials.
+The raw count matrix included in this repository is the publicly available 10x Genomics PBMC 3K dataset used in the official Seurat tutorials.
 
 ---
 
@@ -85,17 +85,11 @@ PBMC_scRNAseq/
 
 ![Annotated UMAP](output/figures/pbmc_umap.png)
 
-These figures are available in:
-
-```
-output/figures/
-```
-
 ---
 
 ## Requirements
 
-This project was developed using R and the following packages:
+This project was developed in R using the following packages:
 
 - Seurat
 - dplyr
@@ -118,16 +112,12 @@ Then run:
 source("scripts/PBMC_scRNAseq_analysis.R")
 ```
 
-The script reproduces the complete analysis workflow and exports the figures to:
-
-```
-output/figures/
-```
+The script reproduces the complete analysis workflow and saves the generated figures in `output/figures/`.
 
 ---
 
 ## Acknowledgements
 
-This project uses the publicly available PBMC 3K dataset and follows the analysis workflow presented in the Seurat guided tutorial developed by the Satija Lab.
+This project uses the publicly available PBMC 3K dataset and follows the analysis workflow presented in the official Seurat guided tutorial developed by the Satija Lab.
 
 The code has been adapted, documented, and organized as part of my personal bioinformatics learning portfolio.
